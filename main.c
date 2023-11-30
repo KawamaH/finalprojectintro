@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "data.h"
-
+#include "frequencies.h"
 int main(){
-	printf("%d\n", data[5][2]);
 	
+	numbersFrequency(data);
 	return 0;
 }

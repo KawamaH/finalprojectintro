@@ -1,7 +1,7 @@
 #include "frequencies.h"
 #include <stdio.h>
 
-void calcularFrecuencias(int data[266][6]) {
+void numbersFrequency(int data[266][6]) {
 	int frequencies[43][6] = {0}; 
 	
 	
